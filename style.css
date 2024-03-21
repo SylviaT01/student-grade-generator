@@ -10,9 +10,10 @@
 }
 body{
     background-image: url(https://img.freepik.com/free-photo/close-up-female-s-hand-holding-baby-s-breath-flowers-against-blue-background_23-2148048411.jpg?t=st=1711010144~exp=1711013744~hmac=820daf3393b1a622008a1b44b1dc0558943363533514b2078f19b7a7c866a2f3&w=740);
+    min-height: 100vh;
     display: grid;
     place-content: center;
-    min-height: 100vh;
+
 
 }
 .container {
@@ -79,16 +80,18 @@ body{
     cursor: pointer;
 }
 footer{
-    height: 100px;
-    padding: 60px;
-    background-color: rgb(99, 235, 228);
-    text-align: center;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: 70px;
+    background-color: bisque;
     margin-top: 10px;
-    margin-bottom: 0px;
-    border: 1px solid black ;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    }
+    footer p{
+        
     }
     
