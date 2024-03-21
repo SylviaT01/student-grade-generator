@@ -79,5 +79,16 @@ body{
     cursor: pointer;
 }
 footer{
+    height: 100px;
+    padding: 60px;
+    background-color: rgb(99, 235, 228);
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid black ;
+    }
     
-}
