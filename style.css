@@ -12,30 +12,29 @@ body{
     display: grid;
     place-content: center;
     min-height: 100vh;
-    background-image: url(https://img.freepik.com/free-photo/white-curled-ribbon-decoration-blue-background_23-2147877873.jpg?t=st=1710972727~exp=1710976327~hmac=774cfd1178df74f0d8b04c3d232bca554712c1a90195a572be9e53827078332d&w=740);
-
+    background-image: url(https://img.freepik.com/free-photo/close-up-female-s-hand-holding-baby-s-breath-flowers-against-blue-background_23-2148048411.jpg?t=st=1711010144~exp=1711013744~hmac=820daf3393b1a622008a1b44b1dc0558943363533514b2078f19b7a7c866a2f3&w=740);
 }
 .container {
-    background-color: bisque;
+    background-color: rgb(238, 225, 209);
     width: 800px;
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
 }
-.left {
+.box1 {
     position: absolute;
     width: 250px;
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(173, 222, 241);
     border-radius: 10px 0px 0px 10px;
 }
-.left h1 {
+.box1 h1 {
     margin-top: 50px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     letter-spacing: 3px;
-    color: aliceblue;
+    color: white;
 }
 .pgt{
     text-align: center;
@@ -48,7 +47,7 @@ body{
     font-weight: 500;
     margin: 20px 0px;
 }
-.content .right{
+.content .box2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +55,7 @@ body{
     min-width: 70vw;
     min-height: 60vh;
 }
-.right input{
+.box2 input{
     margin: 15px 0px;
     width: 300px;
     height: 30px;
@@ -64,12 +63,12 @@ body{
     border: 0;
     font-size: 0.9rem;
 }
-.right button{
+.box2 button{
     height: 40px;
     width: 150px;
     margin-top: 10px;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(84, 206, 214);
     color: black;
     border: 0;
     outline: none;
@@ -77,20 +76,4 @@ body{
     font-weight: 900;
     border-radius: 30px;
     cursor: pointer;
-}
-.result {
-    position: absolute;
-    bottom: 114px;
-    width: 250px;
-    height: 50px;
-    background-color: grey;
-    border-radius: 0px 0px 0px 10px;
-}
-.result h2{
-    text-align: center;
-    line-height: 50px;
-    font-size: 1rem;
-    color: white;
-    font-weight: 900;
-    letter-spacing: 3px;
 }
