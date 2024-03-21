@@ -10,7 +10,6 @@
 }
 body{
     background-image: url(https://img.freepik.com/free-photo/close-up-female-s-hand-holding-baby-s-breath-flowers-against-blue-background_23-2148048411.jpg?t=st=1711010144~exp=1711013744~hmac=820daf3393b1a622008a1b44b1dc0558943363533514b2078f19b7a7c866a2f3&w=740);
-    
     display: grid;
     place-content: center;
     min-height: 100vh;
@@ -78,4 +77,7 @@ body{
     font-weight: 900;
     border-radius: 30px;
     cursor: pointer;
+}
+footer{
+    
 }
