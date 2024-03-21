@@ -81,7 +81,7 @@ body{
 }
 footer{
     height: 50px;
-    background-color: bisque;
+    background-color: rgb(86, 206, 253);
     margin-top: 10px;
     display: flex;
     justify-content: center;
